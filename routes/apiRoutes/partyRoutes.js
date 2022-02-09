@@ -29,7 +29,7 @@ router.get('/party/:id', (req, res) => {
             data: row
         });
     });
-});
+});s
 
 router.delete('/party/:id', (req, res) => {
     const sql = `DELETE FROM parties WHERE id = ?`;
